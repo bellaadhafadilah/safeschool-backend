@@ -1,7 +1,9 @@
 Flask
+flask_cors
 pymongo
 bcrypt
 PyJWT
-Flask-Cors
-Authlib
 gunicorn
+flask_mail
+google-auth
+google-auth-oauthlib
