@@ -401,7 +401,7 @@ def reset_password(token):
 # =====================
 def send_reset_email(email, token):
     msg = Message('Reset Password', recipients=[email])
-    msg.body = f"Klik link berikut untuk mereset password Anda: http://192.168.18.8:5000/reset-password/{token}"
+    msg.body = f"Klik link berikut untuk mereset password Anda: https://safeschool-backend-production.up.railway.app/reset-password/{token}"
     mail.send(msg)
 
 
