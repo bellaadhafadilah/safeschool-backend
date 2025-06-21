@@ -4,3 +4,4 @@ bcrypt
 PyJWT
 Flask-Cors
 Authlib
+gunicorn
