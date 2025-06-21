@@ -1,0 +1,6 @@
+Flask
+pymongo
+bcrypt
+PyJWT
+Flask-Cors
+Authlib
